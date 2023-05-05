@@ -22,24 +22,35 @@ main{
     transform: translate(-50%,-50%);
 }
 #redes{
-    position: absolute;
+    /* position: absolute;
     left: 98%;
-    transform: translateX(-90%);
+    transform: translateX(-90%); */
+    text-align: right;
 }
 .logo{
-    display: block;
+    /* display: block; */
     border-radius: 50%;
     height: 52px;
     width: 52px;
     margin-top: 15px;
-    box-shadow: 1px 0px 2px black;
+    margin-right: 10px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.315);
+    box-sizing: border-box;
+    
+}
+.logo:hover{
+    border: 1px solid rgba(255, 255, 255, 0.623);
+    box-shadow:1px 2px 10px rgba(255, 255, 255, 0.616);
+    transform: translate(-3px,-3px);
+    transition: 0.3s;
 }
 iframe{
     display: block;
     height: 471px;
-    width: 267px;
+    width: 268px;
     position: absolute;
     transform: translate(-50%,-50%);
     left: 50%;
     top: 50%;
+    border: 1px solid white;
 }
